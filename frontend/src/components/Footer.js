@@ -7,9 +7,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Mail, href: `mailto:${personalInfo.email}`, label: 'Email' },
+    // { icon: Mail, href: `mailto:${personalInfo.email}`, label: 'Email' },
     { icon: Linkedin, href: personalInfo.linkedin, label: 'LinkedIn' },
-    { icon: Github, href: personalInfo.github, label: 'GitHub' }
+    // { icon: Github, href: personalInfo.github, label: 'GitHub' }
   ];
 
   const scrollToTop = () => {
@@ -82,9 +82,10 @@ const Footer = () => {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-gray-600 dark:text-gray-400 flex items-center">
-            © {currentYear} {personalInfo.name}. Built with
-            <Heart className="h-4 w-4 mx-1 fill-gray-900 dark:fill-white" />
-            using React & FastAPI
+            © {currentYear} {personalInfo.name}. 
+            {/* Built with */}
+            {/* <Heart className="h-4 w-4 mx-1 fill-gray-900 dark:fill-white" /> */}
+            {/* using React & FastAPI */}
           </p>
           <button
             onClick={scrollToTop}

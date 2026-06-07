@@ -66,7 +66,7 @@ const Hero = () => {
               <Mail className="mr-2 h-4 w-4" />
               Contact Me
             </Button>
-            <Button
+            {/* <Button
               size="lg"
               variant="outline"
               className="border-gray-900 dark:border-white text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-900 transition-all duration-200"
@@ -74,7 +74,7 @@ const Hero = () => {
             >
               <Download className="mr-2 h-4 w-4" />
               Resume
-            </Button>
+            </Button> */}
           </div>
 
           {/* Scroll indicator */}

@@ -73,27 +73,27 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    {
-      icon: Mail,
-      label: 'Email',
-      value: personalInfo.email,
-      href: `mailto:${personalInfo.email}`,
-      description: 'Send me an email'
-    },
+    // {
+    //   icon: Mail,
+    //   label: 'Email',
+    //   value: personalInfo.email,
+    //   href: `mailto:${personalInfo.email}`,
+    //   description: 'Send me an email'
+    // },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
       href: personalInfo.linkedin,
       description: 'Let\'s connect professionally'
-    },
-    {
-      icon: Github,
-      label: 'GitHub',
-      value: 'View my code',
-      href: personalInfo.github,
-      description: 'Check out my projects'
     }
+    // {
+    //   icon: Github,
+    //   label: 'GitHub',
+    //   value: 'View my code',
+    //   href: personalInfo.github,
+    //   description: 'Check out my projects'
+    // }
   ];
 
   return (

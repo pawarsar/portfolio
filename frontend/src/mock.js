@@ -6,11 +6,11 @@ export const personalInfo = {
   tagline: "LLM, RAG & Agentic Systems",
   headline: "Building production-grade AI systems that solve real-world problems",
   bio: "Generative AI Engineer with 3+ years of experience building production-grade LLM applications, RAG systems, and agentic AI workflows across cloud-native environments (Azure & AWS). Specialized in designing intelligent retrieval pipelines, scalable FastAPI services, and autonomous agents for enterprise use cases.",
-  email: "sarvesh@example.com",
+  email: "sarveshpawar06@gmail.com",
   phone: "+91 XXXXX XXXXX",
   location: "India",
-  linkedin: "https://linkedin.com/in/sarvesh-pawar",
-  github: "https://github.com/sarveshpawar",
+  linkedin: "https://linkedin.com/in/sarveshpawar-genai",
+  // github: "https://github.com/sarveshpawar",
   resumeUrl: "/resume.pdf"
 };
 
@@ -96,16 +96,18 @@ export const projects = [
   {
     id: 1,
     title: "Synapse Earth - Geospatial BNG Scoring System",
-    status: "In Progress",
-    problem: "Need to assess biodiversity impact and provide ecological improvement recommendations using satellite data and environmental parameters.",
-    solution: "Developing an AI platform that aggregates geospatial datasets from Google Earth Engine, computes Biodiversity Net Gain (BNG) scores, and generates AI-powered plantation recommendations.",
+    status: "Completed",
+    problem: "Need to assess biodiversity impact using satellite and environmental datasets and provide actionable ecological restoration recommendations to improve Biodiversity Net Gain (BNG) scores",
+    solution: "Designed and implemented a geospatial AI platform that processes satellite and environmental datasets, computes BNG scores, and generates region-specific biodiversity improvement recommendations using ecological intelligence.",
     features: [
-      "Automated satellite data retrieval and preprocessing from GEE",
-      "BNG scoring logic with environmental parameter extraction",
-      "Agentic RAG system for region-specific ecological recommendations",
-      "Short-term and long-term plantation strategy suggestions"
+      "Satellite and environmental data ingestion",
+      "Geospatial preprocessing pipelines",
+      "BNG score computation engine",
+      "GBIF species and vegetation analysis",
+      "Region-specific ecological recommendations",
+      "Biodiversity restoration planning"
     ],
-    tech: ["Google Earth Engine", "Python", "FastAPI", "Azure AI Search", "LangChain", "Cosmos DB"],
+    tech: ["Geospatial Processing", "Agentic AI", "Python", "FastAPI", "Google Gemini", "LangChain"],
     impact: "Enables data-driven ecological improvement decisions for sustainability initiatives",
     architecture: "Geospatial data ingestion → Parameter extraction → BNG scoring → AI recommendation engine",
     screenshots: []
@@ -155,12 +157,12 @@ export const projects = [
     problem: "Virtual assistants need advanced capabilities for text generation, image processing, and contextual document analysis.",
     solution: "Integrated enterprise-grade RAG with Azure Search and vector embeddings to enhance virtual assistant workflows.",
     features: [
-      "Text and code generation capabilities",
-      "Intelligent image processing",
-      "Document analysis with RAG",
-      "Query validation and intent detection",
-      "KQL execution for data retrieval",
-      "Context-aware responses with vector embeddings"
+      "Azure AI Search retrieval",
+      "RAG pipeline",
+      "Context-aware responses",
+      "Document intelligence",
+      "Intent understanding",
+      "Enterprise knowledge retrieval"
     ],
     tech: ["Flask", "Azure Search", "Vector Embeddings", "Azure OpenAI"],
     impact: "Improved response accuracy by 60% and reduced query resolution time",
@@ -197,18 +199,18 @@ export const caseStudies = [
     architecture: {
       description: "Multi-stage pipeline with geospatial data ingestion, parameter extraction, scoring computation, and AI-powered recommendation generation.",
       components: [
-        "Google Earth Engine API for satellite data",
-        "Python-based data preprocessing pipeline",
-        "BNG scoring engine with configurable parameters",
-        "Agentic RAG system for contextual recommendations",
-        "FastAPI backend for API services",
-        "Cosmos DB for data persistence"
-      ]
+        "Satellite and environmental data ingestion",
+        "Geospatial preprocessing pipelines",
+        "BNG score computation engine",
+        "GBIF species and vegetation analysis",
+        "Region-specific ecological recommendations",
+        "Biodiversity restoration planning"
+      ],
     },
     tradeoffs: [
       "Chose GEE over custom satellite data pipeline for faster development",
       "Implemented agentic approach vs rule-based for more contextual recommendations",
-      "Used Azure cloud for scalability despite higher initial cost"
+      "Used Azure VM for scalability despite higher initial cost"
     ],
     results: "Platform enables automated BNG assessment with AI-powered improvement strategies, reducing manual analysis time from weeks to minutes."
   },

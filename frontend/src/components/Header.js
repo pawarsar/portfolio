@@ -42,18 +42,21 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex items-center h-16">
           {/* Logo */}
-          <a
+          {/* <a
             href="#hero"
             onClick={(e) => scrollToSection(e, '#hero')}
-            className="text-xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity"
+            className="text-xl font-bold text-gray-900 dark:text-white hover:opacity-100 transition-opacity"
           >
-            SP
-          </a>
+          SP
+          </a> */}
+          {/* Left spacer */}
+          <div className="text-xl font-bold text-gray-900 dark:text-white hover:opacity-100 transition-opacity"></div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1">
+          {/* <nav className="hidden md:flex items-center space-x-1"> */}
+          <nav className="absolute left-1/2 -translate-x-1/2 hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <a
                 key={item.label}
@@ -65,9 +68,19 @@ const Header = () => {
               </a>
             ))}
           </nav>
+          {/* <div className="flex items-center space-x-4"> */}
+          <div className="ml-auto flex items-center space-x-4">
+            {/* Logo */}
+            <a
+              href="#hero"
+              onClick={(e) => scrollToSection(e, '#hero')}
+              className="text-xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity"
+            >
+              SP
+            </a>
 
-          {/* Right side buttons */}
-          <div className="flex items-center space-x-2">
+            {/* Right side buttons */}
+            {/* <div className="flex items-center space-x-2"> */}
             <Button
               variant="ghost"
               size="icon"
