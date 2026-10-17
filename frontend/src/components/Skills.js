@@ -7,17 +7,15 @@ import {
   Server,
   Database,
   Cloud,
-  Wrench,
   Zap
 } from 'lucide-react';
 
 const Skills = () => {
   const categoryIcons = {
-    'LLM & GenAI': Brain,
-    'Backend Engineering': Server,
-    'Vector Search & Retrieval': Database,
-    'Cloud & MLOps': Cloud,
-    'DevOps & Tools': Wrench
+    'LLMs & GenAI': Brain,
+    'Languages & Backend': Server,
+    'Data & Retrieval': Database,
+    'Cloud & DevOps': Cloud
   };
 
   return (

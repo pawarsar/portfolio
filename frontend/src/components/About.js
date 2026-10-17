@@ -5,7 +5,7 @@ import { personalInfo, education, certifications, awards } from '../mock';
 
 const About = () => {
   const stats = [
-    { icon: Briefcase, label: 'Experience', value: '3+ Years' },
+    { icon: Briefcase, label: 'Experience', value: '3.8 Years' },
     { icon: Award, label: 'Awards', value: awards.length },
     { icon: GraduationCap, label: 'Certifications', value: certifications.length },
     { icon: MapPin, label: 'Location', value: personalInfo.location }
@@ -51,7 +51,7 @@ const About = () => {
               {personalInfo.bio}
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              Currently contributing to <span className="font-semibold">Synapse Earth</span>—a geospatial AI platform leveraging satellite data and environmental parameters to compute BNG (Biodiversity Net Gain) scores and deliver AI-powered ecological improvement recommendations. Strong focus on reliability, structured outputs, data-driven evaluation, and creating real-world impact through GenAI systems.
+              Currently building enterprise GenAI solutions at <span className="font-semibold">Accenture</span>, including a RAG-powered recommendation platform on AWS with secure, role-based access. Previously at Capgemini, developed agentic RAG systems and geospatial AI for Biodiversity Net Gain scoring. Focused on reliable outputs, evaluation, and scalable AI applications.
             </p>
           </Card>
 

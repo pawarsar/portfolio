@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Download, Mail } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 import { personalInfo } from '../mock';
 
@@ -52,9 +52,25 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-gray-900 dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-200 group"
+              onClick={() => scrollToSection('#skills')}
+            >
+              Skills
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <Button
+              size="lg"
+              className="bg-gray-900 dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-200 group"
               onClick={() => scrollToSection('#projects')}
             >
               View Projects
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </Button>
+            <Button
+              size="lg"
+              className="bg-gray-900 dark:bg-white text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-200 group"
+              onClick={() => scrollToSection('#experience')}
+            >
+              Experience
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Button>
             {/* #### */}
