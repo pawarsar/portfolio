@@ -6,7 +6,7 @@ import { Briefcase, MapPin } from 'lucide-react';
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-white dark:bg-black">
+    <section id="experience" className="py-20 bg-white/60 dark:bg-[#080d18]/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center mb-16">

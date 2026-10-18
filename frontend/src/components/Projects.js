@@ -11,7 +11,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section id="projects" className="py-20 bg-gray-50 dark:bg-gray-950">
+    <section id="projects" className="py-20 bg-gray-50/65 dark:bg-[#0c1424]/65">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center mb-16">

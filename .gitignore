@@ -73,3 +73,4 @@ pip-delete-this-directory.txt
 *.venvportfolio
 *.ruff_cache
 *.emergent
+groq_check.py

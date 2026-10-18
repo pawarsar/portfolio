@@ -1,0 +1,13 @@
+.particle-field {
+  --particle-ripple-rgb: 124, 58, 237;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark .particle-field {
+  --particle-ripple-rgb: 139, 130, 255;
+}

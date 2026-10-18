@@ -14,11 +14,8 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-white dark:bg-black"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-white/60 dark:bg-[#080d18]/60"
     >
-      {/* Dot grid background pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgb(0,0,0,0.05)_1px,transparent_0)] dark:bg-[radial-gradient(circle_at_1px_1px,rgb(255,255,255,0.05)_1px,transparent_0)] bg-[size:40px_40px]"></div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center space-y-8">
           {/* Badge */}

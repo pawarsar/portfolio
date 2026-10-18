@@ -1,6 +1,6 @@
 import React from 'react';
 import { Separator } from './ui/separator';
-import { Mail, Linkedin, Github, Heart } from 'lucide-react';
+import { Mail, Linkedin, Github, Instagram, Heart } from 'lucide-react';
 import { personalInfo } from '../mock';
 
 const Footer = () => {
@@ -9,7 +9,8 @@ const Footer = () => {
   const socialLinks = [
     // { icon: Mail, href: `mailto:${personalInfo.email}`, label: 'Email' },
     { icon: Linkedin, href: personalInfo.linkedin, label: 'LinkedIn' },
-    // { icon: Github, href: personalInfo.github, label: 'GitHub' }
+    { icon: Github, href: personalInfo.github, label: 'GitHub' },
+    { icon: Instagram, href: personalInfo.instagram, label: 'Instagram' },
   ];
 
   const scrollToTop = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gray-50 dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800">
+    <footer className="bg-gray-50/85 dark:bg-gray-950/85 border-t border-gray-200 dark:border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}

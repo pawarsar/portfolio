@@ -10,7 +10,8 @@ export const personalInfo = {
   phone: "+91-9167988420",
   location: "Mumbai, India",
   linkedin: "https://www.linkedin.com/in/sarveshpawar-genai/",
-  // github: "https://github.com/sarveshpawar",
+  github: "https://github.com/pawarsar",
+  instagram: "https://www.instagram.com/sarveshp06/",
   resumeUrl: "/resume.pdf"
 };
 
